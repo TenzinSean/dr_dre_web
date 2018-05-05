@@ -1,0 +1,177 @@
+$bg-color:#333;
+$font-color:#fff;
+
+body{
+  background:$bg-color;
+  color:$font-color;
+  margin: 0;
+  padding:0;
+}
+
+.head-one {
+  background:url("https://gazettereview.com/wp-content/uploads/2016/04/dr-dre.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 550px;
+  opacity: 0.65;
+}
+
+
+ul {
+  list-style-type: none;
+  margin-top:-80px;
+  margin-right:20px;
+  padding:0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  color:$font-color;
+  color:#fff;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  padding: 14px 16px;
+  margin-top: 10px;
+  text-align: center;
+  color:$font-color;
+}
+
+li a:hover{
+  border-bottom:2px solid red;
+}
+
+.head-one img {
+  margin-top:30px;
+  margin-left:20px;
+  opacity: none;
+  width:80px;
+}
+
+
+header .text{
+  font-weight: bold;
+  margin-top:150px;
+  margin-left:100px;
+  font-family: sans-serif;
+  color:white;
+}
+
+header form {
+  float:right;
+  color:#fff;
+  font-weight: bold;
+  margin-right:20px;
+}
+
+.text1  {
+  margin-left:135px;
+  margin-top:10px;
+  font-size:14px;
+  font-weight: italic;
+  color:white;
+}
+
+form input {
+  border-radius: 12px;
+  color:#333;
+  font-weight: bold;
+
+}
+
+header button{
+  background-color:red;
+  border-radius: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right:40px;
+  color:$font-color;
+}
+
+
+.flex-3 {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color:rgb(166, 34, 54);
+}
+.flex-3 > div {
+  margin: 0;
+  padding:0;
+}
+
+.flex-3 img {
+  margin-left:-40%;
+  margin-top:30px;
+  border-radius: 20px;
+}
+
+.flex-3 h1 p {
+  float:right;
+  margin-top:-20%;
+
+}
+
+
+
+
+
+.header1 {
+  margin-top:30px;
+  text-align: center;
+}
+
+.header1 h2 {
+  font-weight: bold;
+  font-size:35px;
+  line-height: 20px;
+  margin-bottom: 10px;
+
+}
+
+
+.text3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top:20px;
+}
+
+.text3 > i {
+  padding: 20px;
+  margin-top:40px;
+  margin-left:100px;
+  margin-right: 100px;
+  margin-bottom: 40px;
+  opacity: 0.80px;
+}
+
+.fa-facebook-square:hover{
+  background-color:blue;
+}
+.fa-google:hover{
+  background-color:red;
+  border-radius: 10px;
+}
+.fa-twitter:hover{
+  background-color:lightblue;
+}
+
+.fa-instagram:hover{
+  background-color:purple;
+}
+
+.fa-spotify:hover {
+  background-color:green;
+}
+
+i:hover{
+  opacity: none;
+  cursor: pointer;
+  background-color: red;
+}
