@@ -32,7 +32,6 @@ li {
 }
 
 li a {
-  display: block;
   text-decoration: none;
   padding: 14px 16px;
   margin-top: 10px;
@@ -40,7 +39,7 @@ li a {
   color:$font-color;
 }
 
-li a:hover{
+.head-one li a:hover{
   border-bottom:2px solid red;
 }
 
@@ -98,21 +97,32 @@ header button{
   flex-wrap: wrap;
   justify-content: center;
   background-color:rgb(166, 34, 54);
+  height:300px;
 }
 .flex-3 > div {
   margin: 0;
   padding:0;
 }
 
-.flex-3 img {
-  margin-left:-40%;
-  margin-top:30px;
-  border-radius: 20px;
+.flex-3 p {
+
 }
 
-.flex-3 h1 p {
+.flex-3 img {
+  margin-left:-10%;
+  margin-top:30px;
+  margin-right:-10px;
+  border-radius: 20px;
+  width:250px;
+}
+
+.flex-3 h1  {
   float:right;
-  margin-top:-20%;
+  margin-top:10%;
+  text-align: center;
+  margin-left:40px;
+  margin-right:10px;
+
 
 }
 

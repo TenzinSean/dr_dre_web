@@ -24,14 +24,13 @@ li {
   color: #fff; }
 
 li a {
-  display: block;
   text-decoration: none;
   padding: 14px 16px;
   margin-top: 10px;
   text-align: center;
   color: #fff; }
 
-li a:hover {
+.head-one li a:hover {
   border-bottom: 2px solid red; }
 
 .head-one img {
@@ -78,20 +77,26 @@ header button {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #a62236; }
+  background-color: #a62236;
+  height: 300px; }
 
 .flex-3 > div {
   margin: 0;
   padding: 0; }
 
 .flex-3 img {
-  margin-left: -40%;
+  margin-left: -10%;
   margin-top: 30px;
-  border-radius: 20px; }
+  margin-right: -10px;
+  border-radius: 20px;
+  width: 250px; }
 
-.flex-3 h1 p {
+.flex-3 h1 {
   float: right;
-  margin-top: -20%; }
+  margin-top: 10%;
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 10px; }
 
 .header1 {
   margin-top: 30px;
