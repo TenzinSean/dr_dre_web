@@ -12,12 +12,12 @@ body{
   background:url("https://gazettereview.com/wp-content/uploads/2016/04/dr-dre.jpg");
   background-size:cover;
   background-repeat: no-repeat;
-  height: 550px;
+  padding-bottom:320px;
   opacity: 0.65;
 }
 
 
-ul {
+.head-one ul {
   list-style-type: none;
   margin-top:-80px;
   margin-right:20px;
@@ -25,13 +25,14 @@ ul {
   overflow: hidden;
 }
 
-li {
+.head-one li {
   float: right;
   color:$font-color;
   color:#fff;
 }
 
-li a {
+.head-one li a {
+  display: block;
   text-decoration: none;
   padding: 14px 16px;
   margin-top: 10px;
@@ -95,39 +96,93 @@ header button{
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  align-items:center;
   background-color:rgb(166, 34, 54);
-  height:300px;
+  justify-content: space-between;
+  height:550px;
+
 }
-.flex-3 > div {
-  margin: 0;
+
+#image {
+  margin-top:100px;
+  margin-left:30px;
+  border-radius: 20px;
+
+}
+
+#image1 {
+  margin-top:100px;
+  margin-left:20px;
+  border-radius: 20px;
+  opacity: 0.90;
+
+}
+
+#image3 {
+  margin-top:90px;
+  margin-left:20px;
+  border-radius: 20px;
+  opacity: 0.50;
+
+}
+
+#image4 {
+  margin-top:90px;
+  margin-left:20px;
+  border-radius: 20px;
+  opacity: 0.50;
+  margin-right:20px;
+
+}
+
+
+
+#title {
+  margin-top:40px;
+  text-align: center;
+  margin-left:140px;
+  margin-bottom:-70px;
+  padding-top:30px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  padding-top:10px;
+
+}
+
+/* Product */
+#product {
+  background:rgb(247, 247, 247);
+  margin:0;
   padding:0;
 }
 
-.flex-3 p {
-
-}
-
-.flex-3 img {
-  margin-left:-10%;
-  margin-top:30px;
-  margin-right:-10px;
-  border-radius: 20px;
-  width:250px;
-}
-
-.flex-3 h1  {
-  float:right;
-  margin-top:10%;
+#product h3 {
+  color:#333;
+  font-family: sans-serif;
+  font-size:40px;
+  font-weight: bold;
+  padding-top:50px;
   text-align: center;
-  margin-left:40px;
-  margin-right:10px;
-
+  padding-bottom:20px;
+  margin-bottom: 20px;
 
 }
 
+.grind {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
+.grind > div {
+  padding:0;
+  padding-top:20px;
+  color:#333;
+  font-weight: bold;
+  font-size:25px;
 
+}
 
 
 .header1 {
@@ -184,4 +239,26 @@ i:hover{
   opacity: none;
   cursor: pointer;
   background-color: red;
+}
+
+/* Footer */
+footer{
+  background:#333;
+  padding-top:30px;
+  padding-bottom:40px;
+
+}
+
+footer .flex1 {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+footer .logo {
+  padding-left:20px;
+}
+
+.flex1 > div {
+  margin-left:20px;
 }
